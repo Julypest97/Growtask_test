@@ -1,0 +1,127 @@
+<!--Сообщаей браузеру, как стоит обрабатывать эту страницу-->
+<!DOCTYPE html>
+<!--Оболочка содержимого, указываем язык содержимого-->
+<html lang="ru">
+    <!--Заголовок страницы, контейнер для других важных данных (не отображается)-->
+    <head>
+        <!--Заголовок страницы-->
+        <title>Growtask test</title>
+        <!--Кодировка страницы-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <!--Отображаемое "тело" страницы-->
+    <body>
+        <header>
+            <nav>
+                <button>Главная</button>
+                <button>Слайдер</button>
+                <button>Карточки</button>
+                <button>Форма</button>
+                <button>Список</button>
+                <button>Модалка</button>
+            </nav>
+        </header>
+        <content>
+            <div class="first screen">
+                <h1>GROWTASK</h1>
+                <menu>Тестовое задание</menu>
+                <button>Модальное окно</button>
+                <img src="/img/Bg_first_screen.jpg" alt="What_is_design?"/>
+            </div>
+            <div class="slider">
+                <h2>Слайдер</h2>
+                <img src="/img/slide_1.png" alt="1 pic"/>
+                <img src="/img/slide_2.png" alt="2 pic"/>
+                <img src="/img/slide_3.png" alt="3 pic"/>
+                <button>Left</button>
+                <button>Right</button>
+            </div>
+            <div class="cards">
+                <h2>Карточки</h2>
+                <button>Left</button>
+                <button>Right</button>
+                <div id="card_1">
+                    <img src="/img/card_1.jpg" alt="">
+                    <h3>Услуга 1 Услуга 1</h3>
+                    <p>Описание Описание Описание Описание Описание ОписаниеОписание Описание Описание</p>
+                    <button>Модальное окно</button>
+                </div>
+                <div id="cards">
+                    <img src="/img/card_2.jpg" alt="">
+                    <h3>Услуга 2 Услуга 2Услуга 2 Услуга 2 </h3>
+                    <p>Описание Описание Описание Описание</p>
+                    <button>Модальное окно</button>
+                </div>
+                <div id="cards">
+                    <img src="/img/card_3.jpg" alt="">
+                    <h3>Услуга 3 Услуга 3 Услуга 3</h3>
+                    <p>Описание Описание Описание Описание Описание ОписаниеОписание Описание Описание</p>
+                    <button>Модальное окно</button></div>
+                </div>
+            <div class="form">
+                <div>
+                    <h2>Форма</h2>
+                    <p>Стандартная форма обратной связи</p>
+                    <form action="#" method="get" enctype="multipart/form-data"></form>
+                    <div>
+                        <input placeholder="Как вас зовут?" type="text" name="username">
+                    </div>
+                    <br>
+                    <div>
+                        <input placeholder="Ваш телефон" type="tel" name="phone">
+                    </div>
+                    <br>
+                    <div>
+                        <textarea placeholder="Напиши чего хочешь" name="comment" cols="60" rows="10"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <button type="reset">Не отправлять</button>
+                        <button type="submit">Отправить</button>
+                    </div>
+                </div>
+                <img src="/img/Form_left.png" alt="Здесь красивый фон">
+                <img src="/img/Form_right.png" alt="И тут тоже">
+            </div>
+            <div class="list">
+                <h2>Список</h2>
+                <div id="Item">
+                    <div id="Heading">
+                        <h3>Список 1</h3>
+                        <button>Close</button>
+                    </div>
+                    <p>Тут как с водопроводом: количество потребляемой воды на квартиру зависит от <br>
+                        количества людей и их потребностей. Внимание! Роутер можно взять в аренду,<br>
+                        но в этом случае к вам может попасть устаревшее или даже неисправное<br>
+                        оборудование, что может сказаться на качестве услуг и нашей репутации.<br>
+                        Так же вы можете воспользоваться беспроцентной рассрочкой.
+                    </p>
+                </div>
+                <div id="Item">
+                    <div id="Heading">
+                        <h3>Список 2</h3>
+                        <button>Open</button>
+                    </div>
+                </div>
+                <div id="Item">
+                    <div id="Heading">
+                        <h3>Список 3</h3>
+                        <button>Open</button>
+                    </div>
+                </div>
+            </div>
+        </content>
+        <footer>
+            <nav>
+                <button>Главная</button>
+                <button>Слайдер</button>
+                <button>Карточки</button>
+                <button>Форма</button>
+                <button>Список</button>
+                <button>Модалка</button>
+            </nav>
+        </footer>
+    </body>
+</html>
